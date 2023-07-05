@@ -88,7 +88,7 @@ app.delete("/products/:id", async (req, res) => {
 mongoose.set("strictQuery", false);
 mongoose
   .connect(
-    "mongodb+srv://root:1234@shriyaapi.pn8dquy.mongodb.net/NODE-API?retryWrites=true&w=majority"
+    "mongodb+srv://*enteryourusername*:*enteryourpassword*@shriyaapi.pn8dquy.mongodb.net/NODE-API?retryWrites=true&w=majority"
   )
   .then(() => {
     console.log("connected to MongoDB");
